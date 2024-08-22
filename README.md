@@ -26,10 +26,10 @@ The objective of this project is to predict future samples of a multivariate tim
     - The project successfully applied multiple advanced deep learning techniques to time series forecasting, resulting in models that improved progressively. Despite attempts to implement additional mechanisms like attention or transformers, challenges such as computational limitations were encountered. The project reflects a thorough learning process with promising results and a clear direction for future work.
 
 ## Results
-
-- **Best Autoregressive Model**: CodaLab score of 3.912.
-- **Best Encoder-Decoder Model**: CodaLab score of 3.892.
-- **Best Ensemble Model**: CodaLab score of 3.364.
+Results are evaluated in terms of MSE, thus, the smaller the better. Top 1 achieved 2.987
+- **Best Autoregressive Model**: CodaLab score of 3.912 overall Loss.
+- **Best Encoder-Decoder Model**: CodaLab score of 3.892 overall Loss.
+- **Best Ensemble Model**: CodaLab score of 3.364 overall Loss landing our model into the top 10 of the competition.
 
 This project demonstrates a robust application of time series forecasting methods, culminating in a model that significantly improves upon the initial baseline.
 
